@@ -1,0 +1,4 @@
+<h5>from user.html.eex (user html template)</h5>
+<h4><%= first_name(@user) %></h4> 
+<p><%= username(@user) %> (id: <%= @user.id %>)</p>
+
